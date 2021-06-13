@@ -1,0 +1,77 @@
+body {
+    background-color: white;
+}
+body::after {
+    content: "";
+    background: url("pictures/mainBackground.jpg");
+    opacity: 0.7;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;   
+  }
+
+h1.bigheaders {
+    text-align:center;
+    color: rgb(211, 226, 0);
+    background-color: rgb(5, 124, 59);
+    border: 20px solid rgb(5, 124, 59);
+    margin: 4% 0 4%; 
+}
+
+nav div {
+    float: left;
+    background-color: black;
+    width:auto;
+    height: auto;
+    color:white;
+    margin: 7px;
+    padding: 20px;
+    margin-top: -30px;
+    border-width: 1px;
+    border-color: darkgray;
+    border-style: solid;
+}
+nav div:hover {
+    background-color: rgb(5, 124, 59);
+    color: rgb(211, 226, 0);
+    font-weight: bold;
+    cursor: cell;
+}
+
+.maindiv {
+    background-color:rgba(5, 124, 59, 0.247);
+    padding: 15px;
+}
+/* .menu {
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+} */
+
+.menulink {
+    background-color: rgb(70, 167, 113);
+    color: black;
+    opacity: 0.8;
+    width: fit-content;
+    height: 25px;
+}
+.menulink:link {
+    text-decoration: none;
+    background-color: rgb(70, 167, 113);
+}
+.menulink:visited {
+    color:rgb(58, 58, 58);
+}
+.menulink:hover {
+    background-color: rgb(5, 124, 59);
+    color: rgb(255, 255, 255);
+    font-size: 1.1em;
+    cursor: default;
+}
+hr {
+    height: 2px;
+    background-color: white;
+}
